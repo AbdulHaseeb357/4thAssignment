@@ -1,0 +1,169 @@
+.menubar{
+    background-color: white !important;
+    box-shadow: 1px 1px 5px gray;
+}
+.nav-link{
+    color: gold !important;
+    padding-right: 8px !important;
+}
+.men1div{
+    height: 1250px;
+    background-color: #eeeeee;
+    display: flex;
+}
+
+* .card{
+    box-shadow: 5px 5px 18px gray !important;
+}
+* div div div div div div div a{
+    color: black !important;
+    text-decoration: none !important;
+    margin-left: 12px !important;
+}
+
+body div div div a{
+    color: black;
+    text-decoration: none !important;
+}
+* a:hover{
+    color: gold !important;
+}
+.padding{
+    margin-left: 15px;
+}
+* .btn-primary{
+    color: white !important;
+}
+.sidebarmain{
+    border-right: 1px solid rgba(0, 0, 0, 0.13);
+    padding: 0 50px 0 50px;
+    margin-top: 35px;
+}
+
+.imgbox{
+    margin-top: 10px;
+    font-size: 14px;
+    vertical-align: top;
+
+    border-bottom: 1px solid rgba(0, 0, 0, 0.226);
+}
+.sideimages{
+    float: left;
+    justify-content: space-between;
+    margin-right: 5px;
+    margin-top: 2px;
+}
+.fa-star{
+    float: left;
+    margin-top: -10px;
+}
+.price{
+    margin-top: -15px;
+}
+.imgboxlast{
+    margin-top: 10px;
+    font-size: 14px;
+    vertical-align: top;
+}
+.span1{
+   visibility: hidden;
+
+}
+.productsdiv{
+    padding: 0 0px 0 50px;
+    margin-top: 35px;
+}
+.description{
+    width: 90%;
+    text-align: justify;
+}
+
+.card1,.card,.card3,.card4,.card5,.card6,.card7,.card8{
+    margin-top: 20px;
+}
+.card1,.card2,.card3,.card4.card5,.card5,.card6,.card7,.card8{
+    box-shadow: 5px 5px 18px gray;
+}
+.cards{
+    margin-left: 10px;
+}
+.card-title{
+    font-size: 16px !important;
+}
+.footer{
+    height: 200px;
+    background-color:rgba(0, 0, 0, 0.938) ;
+    border-top: gray;
+    box-shadow: 18px 0px 10px gray;
+}
+.links{
+    padding-top: 15px;
+    display: inline-block;
+    color: gold !important;
+    text-decoration: none !important;
+
+}
+ul li.links{
+    display: inline-block;
+}
+a{
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    position: relative;
+    right: 15px;
+}
+.Copyright{
+  color:  white;
+  padding-top: 20px;
+  font-size: 14PX;
+}
+.card8{
+    visibility: hidden;
+}
+@media (max-width: 1010px){
+    .sidebarmain{
+        display: none;
+    }   
+    .men1div{
+        height: 1300px;
+    }
+}
+@media (max-width: 1010px){
+    .card8,.card4{
+       display: none;
+   }
+   .cards{
+       margin: auto auto;
+   }
+}
+@media (max-width: 770px){
+    .card-title{
+        font-size: 14px !important;
+    }
+    .btn-primary{
+        font-size: 14px;
+    }
+    .card1,.card2,.card3,.card4,.card5,.card5,.card6,.card7,.card8{
+        margin-top: 40px;
+    }
+}
+@media (max-width: 575px){
+    .men1div{
+        height: 5250px;
+    }
+    .card4{
+        display: inherit;
+    }
+}
+
+@media (max-width: 500px){
+    .men1div{
+        height: 4790px;
+    }
+}
+@media (max-width: 450px){
+    .men1div{
+        height: 4450px;
+    }
+}

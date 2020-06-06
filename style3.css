@@ -1,0 +1,132 @@
+.menubar{
+    background-color: white !important;
+    box-shadow: 1px 1px 5px gray;
+}
+.nav-link{
+    color: gold !important;
+    padding-right: 8px !important;
+}
+* div div div div div div div a{
+    color: black !important;
+    text-decoration: none !important;
+    margin-left: 12px !important;
+}
+* a:hover{
+    color: gold !important;
+}
+* h5{
+    margin-left: 15px;
+}
+* .btn-primary{
+    color: white !important;
+}
+.desription1div{
+    height: 1500px;
+    background-color: #eeeeee;
+}
+.card{
+    margin-top: 20px;
+    box-shadow: 5px 5px 15px rgb(160, 160, 160) ;
+}
+.folder{
+    font-size: 14px;
+}
+.image{
+    margin-top: 60px;
+    flex: 6;
+    border-radius: 30px;
+    box-shadow: 2px 4px 15px gray;
+}
+.discriptionofproduct{
+    margin-left: 50px;
+    margin-top: 60px;
+    flex: 6;
+}
+.arrangement{
+    display: flex ;
+}
+.border1{
+        border-bottom: 1px solid rgba(0, 0, 0, 0.226);
+}
+h5{
+    margin-top: 10px;
+}
+del{
+    color: gray;
+}
+.arrangement{
+    padding-bottom: 150px;
+    border-bottom:1px solid rgba(0, 0, 0, 0.226); ;
+}
+li{
+    font-size: 14px;
+}
+.footer{
+    height: 200px;
+    background-color:rgba(0, 0, 0, 0.938) ;
+    border-top: gray;
+    box-shadow: 18px 0px 10px gray;
+}
+.links{
+    padding-top: 15px;
+    display: inline-block;
+    color: gold !important;
+    text-decoration: none !important;
+
+}
+ul li.links{
+    display: inline-block;
+}
+a{
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    position: relative;
+    right: 15px;
+}
+.Copyright{
+  color:  white;
+  padding-top: 20px;
+  font-size: 14PX;
+}
+
+
+
+@media (max-width: 992px){
+    .image{
+            width: 300PX;
+    }
+}
+@media (max-width: 770px){
+    .desription1div{
+        height: 1880px;
+    }
+    .image{
+        width: 400PX;
+}
+    .arrangement{
+        display: inherit;
+    }
+    .discriptionofproduct{
+    margin-left: 0px;
+}
+@media (max-width: 767px){
+    .desription1div{
+        height: 2010px;
+    }
+}
+@media (max-width: 575px){
+    .desription1div{
+        height: 3950px;
+    }
+}
+@media (max-width: 500px){
+    .desription1div{
+        height: 3840px;
+    }
+}
+@media (max-width: 460px){
+    .desription1div{
+        height: 3620px;
+    }
+} 
